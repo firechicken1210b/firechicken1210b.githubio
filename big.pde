@@ -1,5 +1,6 @@
 void setup(){
-  println(displayWidth,displayHeight);
+  int xx = displayWidth
+  println(xx);
   size(displayWidth,displayHeight);
 }
 
