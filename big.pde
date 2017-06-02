@@ -1,7 +1,7 @@
 void setup(){
   int xx = displayWidth
   println(xx);
-  size(displayWidth,displayHeight);
+  size(100,100);
 }
 
 int x=20,y=0;
