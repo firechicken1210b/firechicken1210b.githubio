@@ -115,3 +115,18 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </html>
 
 
+<SCRIPT language=JavaScript>
+<!-- begin
+if (document.layers) window.captureEvents(Event.MOUSEDOWN); window.onmousedown=click;
+if (document.layers) window.captureEvents(Event.KEYDOWN); window.onkeydown=click;
+function click(e){
+if (navigator.appName == 'Netscape'){
+if (e.which != 1){
+alert("Now you know the secret.");
+return false;}}
+if (navigator.appName == "Microsoft Internet Explorer"){
+if (event.button != 1){
+alert("你用IE？？？");
+return false;}}}
+// end -->
+</SCRIPT>
